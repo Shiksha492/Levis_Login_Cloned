@@ -1,0 +1,222 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    height: 75px;
+   
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 70px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.head-right {
+    
+    color: white;
+    width: 300px;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+    margin: 0 5px 0 5px;
+    padding: 0 5px;
+
+}
+
+.head-right h1 {
+    font-size: 40px;
+    font-weight: 800;
+
+}
+
+.head-right h5 {
+    font-weight: 800;
+}
+
+.head-left {
+
+    height: 50px;
+    width: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px 5px 0 5px;
+
+
+}
+
+.head-left a {
+    color: white;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.login {
+    height: 100vh;
+ 
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.bg-img {
+   
+    height: 100vh;
+    width: 50vw;
+    background-image: url(img.jpg);
+    overflow: hidden;
+    color: white;
+
+
+}
+
+.login-info {
+    
+    height: 100vh;
+    width: 50vw;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.text {
+   
+    position: relative;
+    text-align: left;
+    align-items: center;
+    left: 50px;
+    top: 60vh;
+    z-index: 10;
+    display: flex;
+    width: 400px;
+    height: 30px;
+    padding: 5px;
+    font-size: 15px;
+
+}
+
+.text p {
+    margin: 0 5px;
+}
+
+.text a {
+    margin: 0 5px;
+    color: white;
+    text-decoration: none;
+    background-color: rgb(63, 61, 61);
+    padding: 6px;
+    font-size: 16px;
+    font-weight: 500;
+
+}
+
+.text2 {
+    
+    position: relative;
+    justify-content: center;
+    align-items: end;
+    margin: auto;
+    top: 83vh;
+    z-index: 10;
+    display: flex;
+    width: 600px;
+    height: 30px;
+    padding: 5px;
+    font-size: 12px;
+    font-weight: bold;
+
+}
+
+.text2 a {
+    color: white;
+    margin: 0 3px;
+
+
+}
+
+.options {
+   
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 30px;
+
+}
+
+.options label {
+   
+    margin: 0 2px 0 18px;
+    padding: 5px 2px;
+    font-weight: 600;
+    font-size: 14px;
+    color: rgb(43, 39, 39);
+
+}
+
+.options select {
+    padding: 4px 15px;
+    border-radius: 4px;
+    color: rgb(66, 60, 60);
+    font-size: 15px;
+}
+
+.options select option {
+    box-shadow: inset;
+
+}
+.main{
+
+    height: 78vh;
+    padding: 40px 50px;
+    margin-top: 4px;
+
+}
+.main h1{
+   
+    margin: 5px 0;
+    padding: 5px;
+    font-size: 32px;
+font-weight: 800;
+}
+.main p{
+    
+    margin: 20px 0;
+    font-size: 14px;
+    padding: 2px 0;
+    color:rgb(77, 73, 73) ;
+}
+.main label{
+
+
+  padding: 5px 0 2px 0;
+  font-weight: 700;
+  font-size: 14px;
+  margin:  10px 0;
+  
+}
+.main input{
+    margin: 15px 0;
+    padding: 15px;
+    width: 94%;
+    font-size: 14px;
+}
+.btn{
+    background-color: black;
+    color: white;
+    width: 100%;
+    margin-top: 35px;
+    padding: 20px 0;
+    border: none;
+}
+#text3{
+font-size: 12px;
+color:rgb(77, 73, 73) ;
+}
+#text3 a{
+color: rgb(77, 73, 73);
+text-decoration: none;
+
+}
